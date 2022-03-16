@@ -1,0 +1,20 @@
+h2{
+    text-align: center;
+}
+.countries{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 15px;
+}
+.country{
+    border: sandybrown;
+    padding: 15px;
+    background-color: goldenrod;
+    border-radius: 20px;
+    text-align: center;
+    
+}
+.country img{
+    width: 250px;
+  
+}
