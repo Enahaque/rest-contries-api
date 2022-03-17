@@ -22,9 +22,8 @@ const getCoutriesHTML = country =>{
 
         <h2>${country.capital}</h2>
         <img src="${country.flags.png}"
-        <h2>${country.name.common}</h2>  
-        <h2>${country.area}</h2>  
-        <h2>${country.unMember}</h2>  
+        <p>${country.name.common}</p>  
+     
         </div>
     `
 }
